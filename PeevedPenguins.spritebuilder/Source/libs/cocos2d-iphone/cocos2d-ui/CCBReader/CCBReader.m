@@ -453,7 +453,10 @@ static inline float readFloat(CCBReader *self)
         {
             CGPoint pt = ccp(x,y);
 #if __CC_PLATFORM_IOS || __CC_PLATFORM_ANDROID
-            [node setValue:[NSValue valueWithCGPoint:pt] forKey:name];
+           
+        [node setValue:[NSValue valueWithCGPoint:pt] forKey:name];
+           
+            
 #else
             [node setValue:[NSValue valueWithPoint:NSPointFromCGPoint(pt)] forKey:name];
 #endif
