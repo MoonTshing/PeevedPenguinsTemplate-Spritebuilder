@@ -50,13 +50,6 @@
 			remoteGlobalIDString = 5018F24D0DFDEAC400C013A5;
 			remoteInfo = cocos2d;
 		};
-		B7378988180764180076A88C /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 5018F24C0DFDEAC400C013A5;
-			remoteInfo = cocos2d;
-		};
 		BC2B43A41A77597000F945C3 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B7378940180761A80076A88C /* cocos2d-ios.xcodeproj */;
@@ -270,7 +263,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				B7378989180764180076A88C /* PBXTargetDependency */,
 			);
 			name = PeevedPenguins;
 			productName = Example;
@@ -302,6 +294,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				English,
 			);
 			mainGroup = B77F1B2517B978D7009739AE;
 			productRefGroup = B77F1B2F17B978D7009739AE /* Products */;
@@ -402,14 +395,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		B7378989180764180076A88C /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = cocos2d;
-			targetProxy = B7378988180764180076A88C /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin XCBuildConfiguration section */
 		B77F1CDC17B978D8009739AE /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -495,6 +480,17 @@
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/msvc/glew/lib/Release/Win32",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/msvc/glfw/lib-msvc100",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/xcode/libGLEW/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/xcode/libglfw/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/msvc/glew/lib/Release/Win32",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/msvc/glfw/lib-msvc100",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/xcode/libGLEW/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/xcode/libglfw/lib",
+				);
 				ONLY_ACTIVE_ARCH = YES;
 				OTHER_LDFLAGS = (
 					"-lz",
@@ -527,6 +523,17 @@
 				);
 				INFOPLIST_FILE = Source/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/msvc/glew/lib/Release/Win32",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/msvc/glfw/lib-msvc100",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/xcode/libGLEW/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup/external/Chipmunk/xcode/libglfw/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/msvc/glew/lib/Release/Win32",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/msvc/glfw/lib-msvc100",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/xcode/libGLEW/lib",
+					"$(PROJECT_DIR)/Source/libs/cocos2d-iphone.backup.0/external/Chipmunk/xcode/libglfw/lib",
+				);
 				OTHER_LDFLAGS = (
 					"-lz",
 					"-lsqlite3",
