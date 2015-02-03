@@ -7,7 +7,7 @@
 //
 
 #import "Seal.h"
-
+#import "CCPhysics+ObjectiveChipmunk.h"
 @implementation Seal
 
 - (id)init {
