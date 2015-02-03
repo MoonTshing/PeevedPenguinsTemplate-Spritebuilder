@@ -138,7 +138,7 @@
     [self releaseCatapult];
 }
 
-/*- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
+- (void)ccPhysicsCollisionPostSolve:(CCPhysicsCollisionPair *)pair seal:(CCNode *)nodeA wildcard:(CCNode *)nodeB {
     float energy = [pair totalKineticEnergy];
     
     // if energy is large enough, remove the seal
@@ -148,9 +148,9 @@
         } key:nodeA];
     }
 }
-*/
-/*- (void)sealRemoved:(CCNode *)seal {
+
+- (void)sealRemoved:(CCNode *)seal {
     [seal removeFromParent];
-}*/
+}
 
 @end
