@@ -33,19 +33,19 @@
     
 }
 
--(void) touchEnded:(UITouch *)touch withEvent:(UIEvent *)event
+-(void) touchEnded:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     // when touches end, meaning the user releases their finger, release the catapult
     [self releaseCatapult];
 }
 
--(void) touchCancelled:(UITouch *)touch withEvent:(UIEvent *)event
+-(void) touchCancelled:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     // when touches are cancelled, meaning the user drags their finger off the screen or onto something else, release the catapult
     [self releaseCatapult];
 }
 
--(void) touchBegan:(CCTouch *)touch withEvent:(UIEvent *)event
+-(void) touchBegan:(CCTouch *)touch withEvent:(CCTouchEvent *)event
 {
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     
