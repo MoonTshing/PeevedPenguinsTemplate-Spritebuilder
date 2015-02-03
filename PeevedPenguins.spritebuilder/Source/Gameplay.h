@@ -7,7 +7,8 @@
 //
 
 #import "CCNode.h"
-
+#import <UIKit/UIKit.h>
+#import "CCPhysics+ObjectiveChipmunk.h"
 
 @interface Gameplay : CCNode <CCPhysicsCollisionDelegate>
 

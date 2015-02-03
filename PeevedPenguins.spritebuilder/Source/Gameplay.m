@@ -7,8 +7,7 @@
 //
 
 #import "Gameplay.h"
-#import <UIKit/UIKit.h>
-#import "CCPhysics+ObjectiveChipmunk.h"
+
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
