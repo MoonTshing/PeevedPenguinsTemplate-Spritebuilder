@@ -7,6 +7,7 @@
 //
 
 #import "Gameplay.h"
+#import <UIKit/UIKit.h>
 
 @implementation Gameplay {
     CCPhysicsNode *_physicsNode;
@@ -44,7 +45,7 @@
     [self releaseCatapult];
 }
 
--(void) touchBegan:(UITouch *)touch withEvent:(UIEvent *)event
+-(void) touchBegan:(CCTouch *)touch withEvent:(UIEvent *)event
 {
     CGPoint touchLocation = [touch locationInNode:_contentNode];
     
