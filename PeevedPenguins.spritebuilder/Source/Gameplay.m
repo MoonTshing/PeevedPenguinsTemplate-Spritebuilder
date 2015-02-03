@@ -43,12 +43,9 @@
     [penguin.physicsBody applyForce:force];
     // ensure followed object is in visible are when starting
     self.position = ccp(0, 0);
-    CCActionFollow *follow = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
-    [self runAction:follow];
-    // ensure followed object is in visible are when starting
-    self.position = ccp(0, 0);
     CCActionFollow *follow1 = [CCActionFollow actionWithTarget:penguin worldBoundary:self.boundingBox];
     [_contentNode runAction:follow1];
+    
    
    
 }
