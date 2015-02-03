@@ -139,6 +139,8 @@
 					</array>
 				</dict>
 			</array>
+			<key>selected</key>
+			<true/>
 		</dict>
 		<dict>
 			<key>UUID</key>
@@ -164,8 +166,8 @@
 					<string>Position</string>
 					<key>value</key>
 					<array>
-						<real>248</real>
-						<real>305</real>
+						<real>233</real>
+						<real>299</real>
 						<integer>0</integer>
 						<integer>0</integer>
 						<integer>0</integer>
@@ -202,8 +204,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>15</real>
-						<real>20</real>
+						<real>0.0</real>
+						<real>14</real>
 					</array>
 				</dict>
 				<dict>
@@ -213,8 +215,8 @@
 					<string>Point</string>
 					<key>value</key>
 					<array>
-						<real>30</real>
-						<real>145.57014465332031</real>
+						<real>14</real>
+						<real>150</real>
 					</array>
 				</dict>
 				<dict>
@@ -246,7 +248,7 @@
 					<string>EnabledFloat</string>
 					<key>value</key>
 					<array>
-						<real>52.051738739013672</real>
+						<real>50</real>
 						<true/>
 					</array>
 				</dict>
@@ -1929,7 +1931,7 @@
 			<key>name</key>
 			<string>Default Timeline</string>
 			<key>offset</key>
-			<real>3.1994791030883789</real>
+			<real>0.033333335071802139</real>
 			<key>position</key>
 			<real>0.0</real>
 			<key>resolution</key>
